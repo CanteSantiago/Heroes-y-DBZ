@@ -20,7 +20,12 @@ name:'Goku',
   }
 ];
 onNewCharacter(Character:Character):void{
-console.log('MainPage')
-  console.log(Character)
+this.characters.push(Character);
+  // console.log('MainPage')
+//   console.log(Character)
+}
+
+onDeleteCharacter(xxx:xxx){
+  this.characters.splice
 }
 }

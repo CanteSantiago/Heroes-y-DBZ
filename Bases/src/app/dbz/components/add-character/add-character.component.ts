@@ -19,9 +19,7 @@ power:0
 
 emitCharacter():void{
 
-// debugger;
-
-  console.log(this.Character)
+  // console.log(this.Character)
 if(this.Character.name.length===0)return;
 
 this.onNweCharacter.emit(this.Character);
