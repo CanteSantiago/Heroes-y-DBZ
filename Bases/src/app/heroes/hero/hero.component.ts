@@ -22,4 +22,13 @@ changeHero():void {
 changeAge():void {
   this.age = 25;
 }
+resetForm():void {
+  this.name = 'ironman';
+  this.age = 45;
+
+//busca todos los h1 y les da el valor de "Desde Angular"
+  // document.querySelectorAll('h1')!.forEach( element => {
+    //   element.innerHTML = '<h1>Desde Angular</h1>';
+    // });
+}
 }
