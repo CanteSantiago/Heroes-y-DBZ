@@ -16,10 +16,13 @@ public characterList:Character[]=[{
 
 //Index value: number
 @Output()
-ondelete:EventEmitter<number> = new EventEmitter();
+public ondelete:EventEmitter<string> = new EventEmitter();
 
-onDeleteCharacter(index:number):void{
-//TODO: Emitir el ID del personaje
-this.ondelete.emit(index);
+onDeleteCharacter(id?:string):void{
+
+  if(!id)return;
+console.log({id})
+// if (!id) return;
+this.ondelete.emit(id);
 }
 }
