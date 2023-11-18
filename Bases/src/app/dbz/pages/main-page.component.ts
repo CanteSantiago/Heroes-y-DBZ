@@ -25,7 +25,7 @@ this.characters.push(Character);
 //   console.log(Character)
 }
 
-onDeleteCharacter(xxx:xxx){
-  this.characters.splice
+onDeleteCharacter(index:number){
+  this.characters.splice(index,1);
 }
 }
