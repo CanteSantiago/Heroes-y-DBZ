@@ -21,8 +21,9 @@ public ondelete:EventEmitter<string> = new EventEmitter();
 onDeleteCharacter(id?:string):void{
 
   if(!id)return;
-console.log({id})
+// console.log({id})
 // if (!id) return;
 this.ondelete.emit(id);
 }
+
 }
